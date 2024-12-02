@@ -24,3 +24,5 @@ jobs:
 
       - name: Run script
         run: python workflow_runner.py
+        env:
+          GITHUB_TOKEN: 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  # This will be automatically provided by GitHub Actions
