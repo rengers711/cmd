@@ -24,5 +24,3 @@ jobs:
 
       - name: Run script
         run: python workflow_runner.py
-        env:
-          GITHUB_TOKEN: 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  # Use GitHub's built-in secret
